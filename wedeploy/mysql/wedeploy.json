@@ -1,0 +1,11 @@
+{
+	"id": "database",
+	"memory": 1024,
+	"volume": "/var/lib/db/mysql",
+	"env": {
+		"MYSQL_DATABASE": "lportal",
+		"MYSQL_ROOT_PASSWORD": 
+		"character-set-server": "utf8mb4",
+		"collation-server": "utf8mb4_unicode_ci"
+	}
+}
