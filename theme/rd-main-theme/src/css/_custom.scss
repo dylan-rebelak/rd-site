@@ -233,6 +233,11 @@ body {
 	margin-right: -15px;
 }
 
+#content a {
+	text-decoration: underline;
+	color: inherit;
+}
+
 .modify-pages .delete-tab {
 	height: 20px;
 	top: 22px;
@@ -269,7 +274,6 @@ body {
 .font_3 {
     font: normal normal normal 76px/1.4em anton,sans-serif;
     color: #2F2F2F;
-    margin: 0;
 }
 
 .b1link {
@@ -337,6 +341,10 @@ body {
 	margin-bottom: 0;
 }
 
+.font_7 {
+    font: normal normal normal 18px/1.4em helvetica-w01-roman,helvetica-w02-roman,helvetica-lt-w10-roman,sans-serif;
+}
+
 .custom-logo {
 	float: left;
 	height: 70px;
@@ -357,10 +365,12 @@ body {
 	justify-content: center;
 	margin: 0;
 	padding: 0;
+	font-weight: 600;
 }
 
 .dropdown-menu>li>a {
 	color: #DD4E4E;
+	font-weight: 600;
 }
 
 .dropdown-menu>.active>a, .dropdown-menu>.active>a:hover, .dropdown-menu>.active>a:focus {

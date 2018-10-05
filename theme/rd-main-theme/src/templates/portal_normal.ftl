@@ -71,31 +71,36 @@
 	</section>
 
 	<footer class="footer" id="footer" role="contentinfo">
-		<div>
-			<div>
+		<div class="container">
+			<div class="col-sm-3" style="padding: 20px;">
+				<a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=B7QFRCCU3A84S" target="_blank"><img src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" style="display: block; margin: auto;" /></a>
+			</div>
+
+			<div class="col-sm-6">
 				<h2 class="font_2" style="font-size:17px; text-align:center; margin: 0;"><span style="color:#FFFFFF;"><span style="font-size:17px;"><span style="letter-spacing:0em;">Address - 18-5 E Dundee Suite 200 Barrington IL 60010 </span></span></span></h2>
 				<h2 class="font_2" style="font-size:17px; text-align:center; margin: 0;"><span style="color:#FFFFFF;"><span style="font-size:17px;"><span style="letter-spacing:0em;">Phone - <span style="text-decoration:underline;"><a href="tel:1-224-333-0911" data-content="1-224-333-0911" data-type="phone">1-224-333-0911</a></span> &nbsp;Email&nbsp;-<span style="text-decoration:underline;"><a href="mailto:info@rahabsdaughters.org?subject=Let's Connect" target="_self" data-content="info@rahabsdaughters.org" data-type="mail"> info@rahabsdaughters.org</a></span></span></span></span></h2>
 			</div>
-		</div>
 
-		<div class="social-media-wrapper">
-			<ul>
-			    <li>
-			        <div id="facebook"><a class="icon-facebook"
-			        href="http://www.facebook.com/rahabsdaughters"
-			        target="_blank"><span class="hide">Facebook</span></a></div>
-			    </li>
-			    <li>
-			        <div id="twitter"><a class="icon-twitter"
-			        href="http://www.twitter.com/rahabsdaughters"
-			        target="_blank"><span class="hide">Twitter</span></a></div>
-			    </li>
-			    <li>
-			        <div id="youtube"><a class="icon-youtube"
-			        href="http://youtube.com/user/rahabsdaughters"
-			        target="_blank"><span class="hide">YouTube</span></a></div>
-			    </li>
-			</ul>
+			<div class="social-media-wrapper col-sm-3">
+				<ul style="padding-left: 0; padding-top: 10px">
+				    <li>
+				        <div id="facebook"><a class="icon-facebook"
+				        href="http://www.facebook.com/rahabsdaughters"
+				        target="_blank"><span class="hide">Facebook</span></a></div>
+				    </li>
+				    <li>
+				        <div id="twitter"><a class="icon-twitter"
+				        href="http://www.twitter.com/rahabsdaughters"
+				        target="_blank"><span class="hide">Twitter</span></a></div>
+				    </li>
+				    <li>
+				        <div id="youtube"><a class="icon-youtube"
+				        href="http://youtube.com/user/rahabsdaughters"
+				        target="_blank"><span class="hide">YouTube</span></a></div>
+				    </li>
+				</ul>
+			</div>
+
 		</div>
 	</footer>
 </div>

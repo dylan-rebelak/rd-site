@@ -6,6 +6,8 @@
 <#assign portlet_id = htmlUtil.escapeAttribute(portlet_display.getId())>
 <#assign portlet_title = htmlUtil.escape(portlet_display.getTitle())>
 
+<link href="https://fonts.googleapis.com/css?family=Anton" rel="stylesheet">
+
 <section class="portlet" id="portlet_${portlet_id}">
 	<#if portlet_display.isPortletDecorate() && !portlet_display.isStateMax() && portlet_display.getPortletConfigurationIconMenu()?? && portlet_display.getPortletToolbar()??>
 		<#assign portlet_configuration_icon_menu = portlet_display.getPortletConfigurationIconMenu()>
